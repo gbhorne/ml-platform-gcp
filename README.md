@@ -1,5 +1,10 @@
 # ML Platform Architecture: End-to-End Implementation on GCP
 
+> **Implementation Context**  
+> This project was implemented in a controlled lab environment for demonstrative and portfolio purposes. It reflects real hands-on architectural design and build work on Google Cloud. Operational costs shown are from the actual lab deployment at small scale. Business impact figures such as savings, hours reduced, and ROI are modeled enterprise-scale scenarios; actual production results would depend on SKU volume, data scale, operational integration, and organizational processes.
+
+
+
 > Production-ready machine learning platform for retail sales forecasting using BigQuery ML — achieving 95% confidence intervals at $1.58/month.
 
 ![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
@@ -202,6 +207,9 @@ All three models auto-selected **ARIMA(0,1,2)** with weekly and yearly seasonali
 
 ## Business Impact
 
+**Note:** Savings and ROI values represent modeled enterprise-scale estimates. The current implementation uses a small demonstration dataset, so real-world impact will vary based on deployment scale and operational integration.
+
+
 | Metric | Value |
 |---|---|
 | Inventory Cost Savings | $250K/year (10% improvement) |
@@ -254,4 +262,4 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 ---
 
-> *All metrics, costs, and results are based on actual production implementation on Google Cloud Platform, February 2026.*
+> *Architecture steps and operational costs reflect real lab implementation on Google Cloud Platform (February 2026). Business impact values are modeled enterprise-scale estimates.*
