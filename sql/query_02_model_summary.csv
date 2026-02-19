@@ -1,0 +1,4 @@
+model_name,model_type,product_category,version,status,training_date
+apparel_forecast_model,ARIMA_PLUS,Apparel,v1.0,ACTIVE,2026-02-19 01:39:04
+electronics_forecast_model,ARIMA_PLUS,Electronics,v1.0,ACTIVE,2026-02-19 01:39:04
+home_garden_forecast_model,ARIMA_PLUS,Home_Garden,v1.0,ACTIVE,2026-02-19 01:39:04

@@ -1,0 +1,100 @@
+{
+  "creationTime": "1771463854020",
+  "etag": "uuPVMshYv9q0rfFIwCHOzA==",
+  "lastModifiedTime": "1771463854083",
+  "location": "US",
+  "modelReference": {
+    "datasetId": "retail_ml",
+    "modelId": "electronics_forecast_model",
+    "projectId": "playground-s-11-8124ae0d"
+  },
+  "modelType": "ARIMA_PLUS",
+  "trainingRuns": [
+    {
+      "evaluationMetrics": {
+        "arimaForecastingMetrics": {
+          "arimaSingleModelForecastingMetrics": [
+            {
+              "arimaFittingMetrics": {
+                "aic": 9221.148304446297,
+                "logLikelihood": -4607.574152223148,
+                "variance": 6900.443661737819
+              },
+              "hasDrift": false,
+              "hasHolidayEffect": true,
+              "hasSpikesAndDips": true,
+              "hasStepChanges": true,
+              "nonSeasonalOrder": {
+                "d": "1",
+                "p": "0",
+                "q": "2"
+              },
+              "seasonalPeriods": [
+                "WEEKLY",
+                "YEARLY"
+              ],
+              "timeSeriesId": "Electronics"
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "arimaResult": {
+            "arimaModelInfo": [
+              {
+                "arimaCoefficients": {
+                  "interceptCoefficient": 0,
+                  "movingAverageCoefficients": [
+                    -0.7959238376220003,
+                    -0.1279759670872272
+                  ]
+                },
+                "arimaFittingMetrics": {
+                  "aic": 9221.148304446297,
+                  "logLikelihood": -4607.574152223148,
+                  "variance": 6900.443661737819
+                },
+                "hasDrift": false,
+                "hasHolidayEffect": true,
+                "hasSpikesAndDips": true,
+                "hasStepChanges": true,
+                "nonSeasonalOrder": {
+                  "d": "1",
+                  "p": "0",
+                  "q": "2"
+                },
+                "seasonalPeriods": [
+                  "WEEKLY",
+                  "YEARLY"
+                ],
+                "timeSeriesId": "Electronics"
+              }
+            ]
+          },
+          "durationMs": "2147",
+          "index": 0
+        }
+      ],
+      "startTime": "2026-02-19T01:17:25.113Z",
+      "trainingOptions": {
+        "adjustStepChanges": true,
+        "autoArima": true,
+        "autoArimaMaxOrder": "2",
+        "cleanSpikesAndDips": true,
+        "dataFrequency": "DAILY",
+        "decomposeTimeSeries": true,
+        "holidayRegion": "US",
+        "horizon": "1000",
+        "maxTimeSeriesLength": "3",
+        "minTimeSeriesLength": "20",
+        "timeSeriesDataColumn": "sales_quantity",
+        "timeSeriesIdColumn": "product_category",
+        "timeSeriesLengthFraction": 1,
+        "timeSeriesTimestampColumn": "date",
+        "trendSmoothingWindowSize": "-1"
+      },
+      "trainingStartTime": "1771463845113"
+    }
+  ]
+}

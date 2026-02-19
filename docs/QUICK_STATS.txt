@@ -1,0 +1,18 @@
+ML Platform Architecture - Quick Statistics
+Generated: Thu Feb 19 02:26:20 AM UTC 2026
+
+=== TABLES ===
+15 tables
+
+=== MODELS ===
+0
+0 models
+
+=== RECORDS ===
+Total unified sales: 3285
+Total predictions: 270
+
+=== PUB/SUB ===
+Topics: 3
+Subscriptions: 5
+

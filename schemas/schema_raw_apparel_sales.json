@@ -1,0 +1,70 @@
+{
+  "creationTime": "1771461082136",
+  "etag": "/MUiigeFqKW4TWhXvNdJ5w==",
+  "id": "playground-s-11-8124ae0d:retail_ml.raw_apparel_sales",
+  "kind": "bigquery#table",
+  "lastModifiedTime": "1771461082136",
+  "location": "US",
+  "numActiveLogicalBytes": "72425",
+  "numActivePhysicalBytes": "12152",
+  "numBytes": "72425",
+  "numCurrentPhysicalBytes": "12152",
+  "numLongTermBytes": "0",
+  "numLongTermLogicalBytes": "0",
+  "numLongTermPhysicalBytes": "0",
+  "numRows": "1095",
+  "numTimeTravelPhysicalBytes": "0",
+  "numTotalLogicalBytes": "72425",
+  "numTotalPhysicalBytes": "12152",
+  "schema": {
+    "fields": [
+      {
+        "mode": "NULLABLE",
+        "name": "date",
+        "type": "DATE"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "product_category",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "sales_quantity",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "revenue",
+        "type": "FLOAT"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "avg_order_value",
+        "type": "FLOAT"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "day_of_week",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "month",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "year",
+        "type": "INTEGER"
+      }
+    ]
+  },
+  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/playground-s-11-8124ae0d/datasets/retail_ml/tables/raw_apparel_sales",
+  "tableReference": {
+    "datasetId": "retail_ml",
+    "projectId": "playground-s-11-8124ae0d",
+    "tableId": "raw_apparel_sales"
+  },
+  "type": "TABLE"
+}

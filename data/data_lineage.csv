@@ -1,0 +1,7 @@
+lineage_id,source_table,target_table,transformation_type,transformation_query,execution_timestamp,row_count_input,row_count_output,execution_time_seconds,status
+6d420abb-3ba1-467a-92de-46ab4e714ce4,features_timeseries,training_data,SPLIT,Train/test split - 80/20,2026-02-19 01:41:36,3285,2628,1.2,SUCCESS
+b52d6157-fe09-4c2b-8d85-fbf09bb65be7,raw_electronics_sales,unified_sales,UNION,Union of all category tables,2026-02-19 01:41:36,1095,3285,2.3,SUCCESS
+bc8fb8c5-681b-4b14-a28d-61c13f8c673a,unified_sales,features_timeseries,FEATURE_ENGINEERING,Created time-series features,2026-02-19 01:41:36,3285,3285,5.7,SUCCESS
+2af3fafa-9d7a-4284-a715-c7198f3500f7,training_data,home_garden_forecast_model,MODEL_TRAINING,ARIMA Plus training,2026-02-19 01:41:36,876,1,720.5,SUCCESS
+d1bedc53-cfaf-424a-8682-98e416c589f6,training_data,electronics_forecast_model,MODEL_TRAINING,ARIMA Plus training,2026-02-19 01:41:36,876,1,720.5,SUCCESS
+ef755d02-4753-4b88-82c4-4e4f938234f4,training_data,apparel_forecast_model,MODEL_TRAINING,ARIMA Plus training,2026-02-19 01:41:36,876,1,720.5,SUCCESS

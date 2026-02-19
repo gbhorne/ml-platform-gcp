@@ -1,0 +1,98 @@
+{
+  "creationTime": "1771463434785",
+  "etag": "Y3O/3jYyTYmzdTxmFgArFA==",
+  "id": "playground-s-11-8124ae0d:retail_ml.features_timeseries",
+  "kind": "bigquery#table",
+  "lastModifiedTime": "1771463434785",
+  "location": "US",
+  "numActiveLogicalBytes": "449133",
+  "numActivePhysicalBytes": "84093",
+  "numBytes": "449133",
+  "numCurrentPhysicalBytes": "84093",
+  "numLongTermBytes": "0",
+  "numLongTermLogicalBytes": "0",
+  "numLongTermPhysicalBytes": "0",
+  "numRows": "3285",
+  "numTimeTravelPhysicalBytes": "0",
+  "numTotalLogicalBytes": "449133",
+  "numTotalPhysicalBytes": "84093",
+  "schema": {
+    "fields": [
+      {
+        "name": "date",
+        "type": "DATE"
+      },
+      {
+        "name": "product_category",
+        "type": "STRING"
+      },
+      {
+        "name": "sales_quantity",
+        "type": "INTEGER"
+      },
+      {
+        "name": "revenue",
+        "type": "FLOAT"
+      },
+      {
+        "name": "sales_ma7",
+        "type": "FLOAT"
+      },
+      {
+        "name": "sales_ma30",
+        "type": "FLOAT"
+      },
+      {
+        "name": "revenue_ma7",
+        "type": "FLOAT"
+      },
+      {
+        "name": "sales_lag1",
+        "type": "INTEGER"
+      },
+      {
+        "name": "sales_lag7",
+        "type": "INTEGER"
+      },
+      {
+        "name": "sales_lag30",
+        "type": "INTEGER"
+      },
+      {
+        "name": "sales_yoy",
+        "type": "INTEGER"
+      },
+      {
+        "name": "day_of_week_num",
+        "type": "INTEGER"
+      },
+      {
+        "name": "month_num",
+        "type": "INTEGER"
+      },
+      {
+        "name": "quarter",
+        "type": "INTEGER"
+      },
+      {
+        "name": "day_of_year",
+        "type": "INTEGER"
+      },
+      {
+        "name": "is_holiday_season",
+        "type": "INTEGER"
+      },
+      {
+        "name": "feature_timestamp",
+        "type": "TIMESTAMP"
+      }
+    ]
+  },
+  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/playground-s-11-8124ae0d/datasets/retail_ml/tables/features_timeseries",
+  "tableReference": {
+    "datasetId": "retail_ml",
+    "projectId": "playground-s-11-8124ae0d",
+    "tableId": "features_timeseries"
+  },
+  "type": "TABLE"
+}

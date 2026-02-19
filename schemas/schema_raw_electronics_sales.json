@@ -1,0 +1,70 @@
+{
+  "creationTime": "1771460969455",
+  "etag": "6NM245c6CsqiNRgKSTwiPQ==",
+  "id": "playground-s-11-8124ae0d:retail_ml.raw_electronics_sales",
+  "kind": "bigquery#table",
+  "lastModifiedTime": "1771460969455",
+  "location": "US",
+  "numActiveLogicalBytes": "76805",
+  "numActivePhysicalBytes": "12678",
+  "numBytes": "76805",
+  "numCurrentPhysicalBytes": "12678",
+  "numLongTermBytes": "0",
+  "numLongTermLogicalBytes": "0",
+  "numLongTermPhysicalBytes": "0",
+  "numRows": "1095",
+  "numTimeTravelPhysicalBytes": "0",
+  "numTotalLogicalBytes": "76805",
+  "numTotalPhysicalBytes": "12678",
+  "schema": {
+    "fields": [
+      {
+        "mode": "NULLABLE",
+        "name": "date",
+        "type": "DATE"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "product_category",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "sales_quantity",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "revenue",
+        "type": "FLOAT"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "avg_order_value",
+        "type": "FLOAT"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "day_of_week",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "month",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "year",
+        "type": "INTEGER"
+      }
+    ]
+  },
+  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/playground-s-11-8124ae0d/datasets/retail_ml/tables/raw_electronics_sales",
+  "tableReference": {
+    "datasetId": "retail_ml",
+    "projectId": "playground-s-11-8124ae0d",
+    "tableId": "raw_electronics_sales"
+  },
+  "type": "TABLE"
+}

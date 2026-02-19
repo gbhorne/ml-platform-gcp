@@ -1,0 +1,7 @@
+dataset,product_category,records,start_date,end_date
+Test,Apparel,305,2024-03-01,2024-12-30
+Test,Electronics,305,2024-03-01,2024-12-30
+Test,Home_Garden,305,2024-03-01,2024-12-30
+Training,Apparel,790,2022-01-01,2024-02-29
+Training,Electronics,790,2022-01-01,2024-02-29
+Training,Home_Garden,790,2022-01-01,2024-02-29

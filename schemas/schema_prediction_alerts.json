@@ -1,0 +1,50 @@
+{
+  "creationTime": "1771465589605",
+  "etag": "0PJPb8KEk1QWRiOZowwB5A==",
+  "id": "playground-s-11-8124ae0d:retail_ml.prediction_alerts",
+  "kind": "bigquery#table",
+  "lastModifiedTime": "1771465589605",
+  "location": "US",
+  "numActiveLogicalBytes": "59",
+  "numActivePhysicalBytes": "1912",
+  "numBytes": "59",
+  "numCurrentPhysicalBytes": "1912",
+  "numLongTermBytes": "0",
+  "numLongTermLogicalBytes": "0",
+  "numLongTermPhysicalBytes": "0",
+  "numRows": "1",
+  "numTimeTravelPhysicalBytes": "0",
+  "numTotalLogicalBytes": "59",
+  "numTotalPhysicalBytes": "1912",
+  "schema": {
+    "fields": [
+      {
+        "name": "product_category",
+        "type": "STRING"
+      },
+      {
+        "name": "forecast_date",
+        "type": "TIMESTAMP"
+      },
+      {
+        "name": "predicted_sales",
+        "type": "FLOAT"
+      },
+      {
+        "name": "alert_status",
+        "type": "STRING"
+      },
+      {
+        "name": "alert_timestamp",
+        "type": "TIMESTAMP"
+      }
+    ]
+  },
+  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/playground-s-11-8124ae0d/datasets/retail_ml/tables/prediction_alerts",
+  "tableReference": {
+    "datasetId": "retail_ml",
+    "projectId": "playground-s-11-8124ae0d",
+    "tableId": "prediction_alerts"
+  },
+  "type": "TABLE"
+}

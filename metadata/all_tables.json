@@ -1,0 +1,209 @@
+[
+  {
+    "creationTime": "1771464785214",
+    "id": "playground-s-11-8124ae0d:retail_ml.all_predictions",
+    "kind": "bigquery#table",
+    "tableReference": {
+      "datasetId": "retail_ml",
+      "projectId": "playground-s-11-8124ae0d",
+      "tableId": "all_predictions"
+    },
+    "type": "TABLE"
+  },
+  {
+    "creationTime": "1771465268116",
+    "id": "playground-s-11-8124ae0d:retail_ml.data_lineage",
+    "kind": "bigquery#table",
+    "tableReference": {
+      "datasetId": "retail_ml",
+      "projectId": "playground-s-11-8124ae0d",
+      "tableId": "data_lineage"
+    },
+    "type": "TABLE"
+  },
+  {
+    "creationTime": "1771465498220",
+    "id": "playground-s-11-8124ae0d:retail_ml.data_quality_monitor",
+    "kind": "bigquery#table",
+    "tableReference": {
+      "datasetId": "retail_ml",
+      "projectId": "playground-s-11-8124ae0d",
+      "tableId": "data_quality_monitor"
+    },
+    "type": "VIEW",
+    "view": {
+      "useLegacySql": false
+    }
+  },
+  {
+    "creationTime": "1771463573535",
+    "id": "playground-s-11-8124ae0d:retail_ml.features_monthly",
+    "kind": "bigquery#table",
+    "tableReference": {
+      "datasetId": "retail_ml",
+      "projectId": "playground-s-11-8124ae0d",
+      "tableId": "features_monthly"
+    },
+    "type": "TABLE"
+  },
+  {
+    "creationTime": "1771463434785",
+    "id": "playground-s-11-8124ae0d:retail_ml.features_timeseries",
+    "kind": "bigquery#table",
+    "tableReference": {
+      "datasetId": "retail_ml",
+      "projectId": "playground-s-11-8124ae0d",
+      "tableId": "features_timeseries"
+    },
+    "type": "TABLE"
+  },
+  {
+    "creationTime": "1771465395012",
+    "id": "playground-s-11-8124ae0d:retail_ml.model_performance_monitor",
+    "kind": "bigquery#table",
+    "tableReference": {
+      "datasetId": "retail_ml",
+      "projectId": "playground-s-11-8124ae0d",
+      "tableId": "model_performance_monitor"
+    },
+    "type": "VIEW",
+    "view": {
+      "useLegacySql": false
+    }
+  },
+  {
+    "creationTime": "1771465120356",
+    "id": "playground-s-11-8124ae0d:retail_ml.model_registry",
+    "kind": "bigquery#table",
+    "tableReference": {
+      "datasetId": "retail_ml",
+      "projectId": "playground-s-11-8124ae0d",
+      "tableId": "model_registry"
+    },
+    "type": "TABLE"
+  },
+  {
+    "creationTime": "1771465589605",
+    "id": "playground-s-11-8124ae0d:retail_ml.prediction_alerts",
+    "kind": "bigquery#table",
+    "tableReference": {
+      "datasetId": "retail_ml",
+      "projectId": "playground-s-11-8124ae0d",
+      "tableId": "prediction_alerts"
+    },
+    "type": "TABLE"
+  },
+  {
+    "creationTime": "1771464737766",
+    "id": "playground-s-11-8124ae0d:retail_ml.predictions_apparel",
+    "kind": "bigquery#table",
+    "tableReference": {
+      "datasetId": "retail_ml",
+      "projectId": "playground-s-11-8124ae0d",
+      "tableId": "predictions_apparel"
+    },
+    "type": "TABLE"
+  },
+  {
+    "creationTime": "1771464719096",
+    "id": "playground-s-11-8124ae0d:retail_ml.predictions_electronics",
+    "kind": "bigquery#table",
+    "tableReference": {
+      "datasetId": "retail_ml",
+      "projectId": "playground-s-11-8124ae0d",
+      "tableId": "predictions_electronics"
+    },
+    "type": "TABLE"
+  },
+  {
+    "creationTime": "1771464752877",
+    "id": "playground-s-11-8124ae0d:retail_ml.predictions_home_garden",
+    "kind": "bigquery#table",
+    "tableReference": {
+      "datasetId": "retail_ml",
+      "projectId": "playground-s-11-8124ae0d",
+      "tableId": "predictions_home_garden"
+    },
+    "type": "TABLE"
+  },
+  {
+    "creationTime": "1771461082136",
+    "id": "playground-s-11-8124ae0d:retail_ml.raw_apparel_sales",
+    "kind": "bigquery#table",
+    "tableReference": {
+      "datasetId": "retail_ml",
+      "projectId": "playground-s-11-8124ae0d",
+      "tableId": "raw_apparel_sales"
+    },
+    "type": "TABLE"
+  },
+  {
+    "creationTime": "1771460969455",
+    "id": "playground-s-11-8124ae0d:retail_ml.raw_electronics_sales",
+    "kind": "bigquery#table",
+    "tableReference": {
+      "datasetId": "retail_ml",
+      "projectId": "playground-s-11-8124ae0d",
+      "tableId": "raw_electronics_sales"
+    },
+    "type": "TABLE"
+  },
+  {
+    "creationTime": "1771461150307",
+    "id": "playground-s-11-8124ae0d:retail_ml.raw_home_garden_sales",
+    "kind": "bigquery#table",
+    "tableReference": {
+      "datasetId": "retail_ml",
+      "projectId": "playground-s-11-8124ae0d",
+      "tableId": "raw_home_garden_sales"
+    },
+    "type": "TABLE"
+  },
+  {
+    "creationTime": "1771465065233",
+    "id": "playground-s-11-8124ae0d:retail_ml.sales_forecast_view",
+    "kind": "bigquery#table",
+    "tableReference": {
+      "datasetId": "retail_ml",
+      "projectId": "playground-s-11-8124ae0d",
+      "tableId": "sales_forecast_view"
+    },
+    "type": "VIEW",
+    "view": {
+      "useLegacySql": false
+    }
+  },
+  {
+    "creationTime": "1771463690575",
+    "id": "playground-s-11-8124ae0d:retail_ml.test_data",
+    "kind": "bigquery#table",
+    "tableReference": {
+      "datasetId": "retail_ml",
+      "projectId": "playground-s-11-8124ae0d",
+      "tableId": "test_data"
+    },
+    "type": "TABLE"
+  },
+  {
+    "creationTime": "1771463667459",
+    "id": "playground-s-11-8124ae0d:retail_ml.training_data",
+    "kind": "bigquery#table",
+    "tableReference": {
+      "datasetId": "retail_ml",
+      "projectId": "playground-s-11-8124ae0d",
+      "tableId": "training_data"
+    },
+    "type": "TABLE"
+  },
+  {
+    "creationTime": "1771462873640",
+    "id": "playground-s-11-8124ae0d:retail_ml.unified_sales",
+    "kind": "bigquery#table",
+    "tableReference": {
+      "datasetId": "retail_ml",
+      "projectId": "playground-s-11-8124ae0d",
+      "tableId": "unified_sales"
+    },
+    "type": "TABLE"
+  }
+]

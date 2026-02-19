@@ -1,0 +1,102 @@
+{
+  "creationTime": "1771463925515",
+  "etag": "Mh4wCJMgh29RwI8txi+YXg==",
+  "lastModifiedTime": "1771463925599",
+  "location": "US",
+  "modelReference": {
+    "datasetId": "retail_ml",
+    "modelId": "apparel_forecast_model",
+    "projectId": "playground-s-11-8124ae0d"
+  },
+  "modelType": "ARIMA_PLUS",
+  "trainingRuns": [
+    {
+      "evaluationMetrics": {
+        "arimaForecastingMetrics": {
+          "arimaSingleModelForecastingMetrics": [
+            {
+              "arimaFittingMetrics": {
+                "aic": 9486.472133211462,
+                "logLikelihood": -4739.236066605731,
+                "variance": 9576.958502557742
+              },
+              "hasDrift": false,
+              "hasHolidayEffect": true,
+              "hasSpikesAndDips": true,
+              "hasStepChanges": true,
+              "nonSeasonalOrder": {
+                "d": "1",
+                "p": "1",
+                "q": "1"
+              },
+              "seasonalPeriods": [
+                "WEEKLY",
+                "YEARLY"
+              ],
+              "timeSeriesId": "Apparel"
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "arimaResult": {
+            "arimaModelInfo": [
+              {
+                "arimaCoefficients": {
+                  "autoRegressiveCoefficients": [
+                    0.06938712971920856
+                  ],
+                  "interceptCoefficient": 0.27527242546130887,
+                  "movingAverageCoefficients": [
+                    -0.9999998784887231
+                  ]
+                },
+                "arimaFittingMetrics": {
+                  "aic": 9486.472133211462,
+                  "logLikelihood": -4739.236066605731,
+                  "variance": 9576.958502557742
+                },
+                "hasDrift": false,
+                "hasHolidayEffect": true,
+                "hasSpikesAndDips": true,
+                "hasStepChanges": true,
+                "nonSeasonalOrder": {
+                  "d": "1",
+                  "p": "1",
+                  "q": "1"
+                },
+                "seasonalPeriods": [
+                  "WEEKLY",
+                  "YEARLY"
+                ],
+                "timeSeriesId": "Apparel"
+              }
+            ]
+          },
+          "durationMs": "2332",
+          "index": 0
+        }
+      ],
+      "startTime": "2026-02-19T01:18:34.224Z",
+      "trainingOptions": {
+        "adjustStepChanges": true,
+        "autoArima": true,
+        "autoArimaMaxOrder": "2",
+        "cleanSpikesAndDips": true,
+        "dataFrequency": "DAILY",
+        "decomposeTimeSeries": true,
+        "holidayRegion": "US",
+        "horizon": "1000",
+        "maxTimeSeriesLength": "3",
+        "minTimeSeriesLength": "20",
+        "timeSeriesDataColumn": "sales_quantity",
+        "timeSeriesIdColumn": "product_category",
+        "timeSeriesLengthFraction": 1,
+        "timeSeriesTimestampColumn": "date",
+        "trendSmoothingWindowSize": "-1"
+      },
+      "trainingStartTime": "1771463914224"
+    }
+  ]
+}

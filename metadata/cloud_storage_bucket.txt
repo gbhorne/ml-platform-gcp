@@ -1,0 +1,5 @@
+                                 gs://playground-s-11-8124ae0d/dataflow-temp/
+                                 gs://playground-s-11-8124ae0d/models/
+                                 gs://playground-s-11-8124ae0d/processed/
+                                 gs://playground-s-11-8124ae0d/raw/
+                                 gs://playground-s-11-8124ae0d/scripts/

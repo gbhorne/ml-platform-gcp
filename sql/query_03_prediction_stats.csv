@@ -1,0 +1,4 @@
+product_category,prediction_count,avg_predicted_sales,min_predicted_sales,max_predicted_sales,first_forecast_date,last_forecast_date
+Apparel,90,1585.95,1226.39,2048.29,2024-03-01 00:00:00,2024-05-29 00:00:00
+Electronics,90,1240.33,999.39,1536.9,2024-03-01 00:00:00,2024-05-29 00:00:00
+Home_Garden,90,1329.54,376.44,2200.09,2024-03-01 00:00:00,2024-05-29 00:00:00

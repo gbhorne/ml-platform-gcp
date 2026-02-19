@@ -1,0 +1,57 @@
+[
+  {
+    "ackDeadlineSeconds": 10,
+    "expirationPolicy": {
+      "ttl": "2678400s"
+    },
+    "messageRetentionDuration": "604800s",
+    "name": "projects/playground-s-11-8124ae0d/subscriptions/prediction-ready-sub",
+    "pushConfig": {},
+    "state": "ACTIVE",
+    "topic": "projects/playground-s-11-8124ae0d/topics/prediction-ready"
+  },
+  {
+    "ackDeadlineSeconds": 10,
+    "expirationPolicy": {
+      "ttl": "2678400s"
+    },
+    "messageRetentionDuration": "604800s",
+    "name": "projects/playground-s-11-8124ae0d/subscriptions/model-training-trigger-sub",
+    "pushConfig": {},
+    "state": "ACTIVE",
+    "topic": "projects/playground-s-11-8124ae0d/topics/model-training-trigger"
+  },
+  {
+    "ackDeadlineSeconds": 10,
+    "expirationPolicy": {
+      "ttl": "2678400s"
+    },
+    "messageRetentionDuration": "604800s",
+    "name": "projects/playground-s-11-8124ae0d/subscriptions/data-ingestion-trigger-sub",
+    "pushConfig": {},
+    "state": "ACTIVE",
+    "topic": "projects/playground-s-11-8124ae0d/topics/data-ingestion-trigger"
+  },
+  {
+    "ackDeadlineSeconds": 10,
+    "expirationPolicy": {
+      "ttl": "2678400s"
+    },
+    "messageRetentionDuration": "604800s",
+    "name": "projects/playground-s-11-8124ae0d/subscriptions/data-ingestion-sub",
+    "pushConfig": {},
+    "state": "ACTIVE",
+    "topic": "projects/playground-s-11-8124ae0d/topics/data-ingestion-trigger"
+  },
+  {
+    "ackDeadlineSeconds": 10,
+    "expirationPolicy": {
+      "ttl": "2678400s"
+    },
+    "messageRetentionDuration": "604800s",
+    "name": "projects/playground-s-11-8124ae0d/subscriptions/model-training-sub",
+    "pushConfig": {},
+    "state": "ACTIVE",
+    "topic": "projects/playground-s-11-8124ae0d/topics/model-training-trigger"
+  }
+]

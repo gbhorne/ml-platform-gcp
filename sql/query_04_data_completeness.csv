@@ -1,0 +1,4 @@
+product_category,total_records,unique_dates,start_date,end_date,expected_days
+Apparel,1095,1095,2022-01-01,2024-12-30,1095
+Electronics,1095,1095,2022-01-01,2024-12-30,1095
+Home_Garden,1095,1095,2022-01-01,2024-12-30,1095

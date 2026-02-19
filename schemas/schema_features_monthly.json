@@ -1,0 +1,70 @@
+{
+  "creationTime": "1771463573535",
+  "etag": "xscNyCbmiLA5exRMbeUANQ==",
+  "id": "playground-s-11-8124ae0d:retail_ml.features_monthly",
+  "kind": "bigquery#table",
+  "lastModifiedTime": "1771463573535",
+  "location": "US",
+  "numActiveLogicalBytes": "9036",
+  "numActivePhysicalBytes": "7587",
+  "numBytes": "9036",
+  "numCurrentPhysicalBytes": "7587",
+  "numLongTermBytes": "0",
+  "numLongTermLogicalBytes": "0",
+  "numLongTermPhysicalBytes": "0",
+  "numRows": "108",
+  "numTimeTravelPhysicalBytes": "0",
+  "numTotalLogicalBytes": "9036",
+  "numTotalPhysicalBytes": "7587",
+  "schema": {
+    "fields": [
+      {
+        "name": "month_start",
+        "type": "DATE"
+      },
+      {
+        "name": "product_category",
+        "type": "STRING"
+      },
+      {
+        "name": "total_sales",
+        "type": "INTEGER"
+      },
+      {
+        "name": "avg_daily_sales",
+        "type": "FLOAT"
+      },
+      {
+        "name": "total_revenue",
+        "type": "FLOAT"
+      },
+      {
+        "name": "avg_daily_revenue",
+        "type": "FLOAT"
+      },
+      {
+        "name": "sales_stddev",
+        "type": "FLOAT"
+      },
+      {
+        "name": "min_sales",
+        "type": "INTEGER"
+      },
+      {
+        "name": "max_sales",
+        "type": "INTEGER"
+      },
+      {
+        "name": "days_in_month",
+        "type": "INTEGER"
+      }
+    ]
+  },
+  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/playground-s-11-8124ae0d/datasets/retail_ml/tables/features_monthly",
+  "tableReference": {
+    "datasetId": "retail_ml",
+    "projectId": "playground-s-11-8124ae0d",
+    "tableId": "features_monthly"
+  },
+  "type": "TABLE"
+}

@@ -1,0 +1,5 @@
+       1 B  2026-02-19T00:10:04Z  gs://playground-s-11-8124ae0d/raw/.keep
+ 58.99 KiB  2026-02-19T00:17:51Z  gs://playground-s-11-8124ae0d/raw/retail_apparel_sales.csv
+ 64.34 KiB  2026-02-19T00:17:51Z  gs://playground-s-11-8124ae0d/raw/retail_electronics_sales.csv
+ 63.25 KiB  2026-02-19T00:17:51Z  gs://playground-s-11-8124ae0d/raw/retail_home_garden_sales.csv
+TOTAL: 4 objects, 191049 bytes (186.57 KiB)

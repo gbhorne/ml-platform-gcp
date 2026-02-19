@@ -1,0 +1,32 @@
+[
+  {
+    "creationTime": "1771463925515",
+    "lastModifiedTime": "1771463925599",
+    "modelReference": {
+      "datasetId": "retail_ml",
+      "modelId": "apparel_forecast_model",
+      "projectId": "playground-s-11-8124ae0d"
+    },
+    "modelType": "ARIMA_PLUS"
+  },
+  {
+    "creationTime": "1771463854020",
+    "lastModifiedTime": "1771463854083",
+    "modelReference": {
+      "datasetId": "retail_ml",
+      "modelId": "electronics_forecast_model",
+      "projectId": "playground-s-11-8124ae0d"
+    },
+    "modelType": "ARIMA_PLUS"
+  },
+  {
+    "creationTime": "1771463967983",
+    "lastModifiedTime": "1771463968044",
+    "modelReference": {
+      "datasetId": "retail_ml",
+      "modelId": "home_garden_forecast_model",
+      "projectId": "playground-s-11-8124ae0d"
+    },
+    "modelType": "ARIMA_PLUS"
+  }
+]

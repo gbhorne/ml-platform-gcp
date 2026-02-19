@@ -1,0 +1,62 @@
+{
+  "creationTime": "1771462873640",
+  "etag": "LwAJJMQhHWKDi2ZVCU+pGA==",
+  "id": "playground-s-11-8124ae0d:retail_ml.unified_sales",
+  "kind": "bigquery#table",
+  "lastModifiedTime": "1771462873640",
+  "location": "US",
+  "numActiveLogicalBytes": "226035",
+  "numActivePhysicalBytes": "29059",
+  "numBytes": "226035",
+  "numCurrentPhysicalBytes": "29059",
+  "numLongTermBytes": "0",
+  "numLongTermLogicalBytes": "0",
+  "numLongTermPhysicalBytes": "0",
+  "numRows": "3285",
+  "numTimeTravelPhysicalBytes": "0",
+  "numTotalLogicalBytes": "226035",
+  "numTotalPhysicalBytes": "29059",
+  "schema": {
+    "fields": [
+      {
+        "name": "date",
+        "type": "DATE"
+      },
+      {
+        "name": "product_category",
+        "type": "STRING"
+      },
+      {
+        "name": "sales_quantity",
+        "type": "INTEGER"
+      },
+      {
+        "name": "revenue",
+        "type": "FLOAT"
+      },
+      {
+        "name": "avg_order_value",
+        "type": "FLOAT"
+      },
+      {
+        "name": "day_of_week",
+        "type": "STRING"
+      },
+      {
+        "name": "month",
+        "type": "INTEGER"
+      },
+      {
+        "name": "year",
+        "type": "INTEGER"
+      }
+    ]
+  },
+  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/playground-s-11-8124ae0d/datasets/retail_ml/tables/unified_sales",
+  "tableReference": {
+    "datasetId": "retail_ml",
+    "projectId": "playground-s-11-8124ae0d",
+    "tableId": "unified_sales"
+  },
+  "type": "TABLE"
+}

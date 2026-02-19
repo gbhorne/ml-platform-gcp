@@ -1,0 +1,99 @@
+{
+  "creationTime": "1771463967983",
+  "etag": "XMI0/cV+2WO8Oc+cxPrA3Q==",
+  "lastModifiedTime": "1771463968044",
+  "location": "US",
+  "modelReference": {
+    "datasetId": "retail_ml",
+    "modelId": "home_garden_forecast_model",
+    "projectId": "playground-s-11-8124ae0d"
+  },
+  "modelType": "ARIMA_PLUS",
+  "trainingRuns": [
+    {
+      "evaluationMetrics": {
+        "arimaForecastingMetrics": {
+          "arimaSingleModelForecastingMetrics": [
+            {
+              "arimaFittingMetrics": {
+                "aic": 9497.45683769222,
+                "logLikelihood": -4746.72841884611,
+                "variance": 9802.931138916463
+              },
+              "hasDrift": false,
+              "hasHolidayEffect": true,
+              "hasSpikesAndDips": true,
+              "hasStepChanges": false,
+              "nonSeasonalOrder": {
+                "d": "1",
+                "p": "0",
+                "q": "1"
+              },
+              "seasonalPeriods": [
+                "WEEKLY",
+                "YEARLY"
+              ],
+              "timeSeriesId": "Home_Garden"
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "arimaResult": {
+            "arimaModelInfo": [
+              {
+                "arimaCoefficients": {
+                  "interceptCoefficient": 0,
+                  "movingAverageCoefficients": [
+                    -0.977610288143006
+                  ]
+                },
+                "arimaFittingMetrics": {
+                  "aic": 9497.45683769222,
+                  "logLikelihood": -4746.72841884611,
+                  "variance": 9802.931138916463
+                },
+                "hasDrift": false,
+                "hasHolidayEffect": true,
+                "hasSpikesAndDips": true,
+                "hasStepChanges": false,
+                "nonSeasonalOrder": {
+                  "d": "1",
+                  "p": "0",
+                  "q": "1"
+                },
+                "seasonalPeriods": [
+                  "WEEKLY",
+                  "YEARLY"
+                ],
+                "timeSeriesId": "Home_Garden"
+              }
+            ]
+          },
+          "durationMs": "2521",
+          "index": 0
+        }
+      ],
+      "startTime": "2026-02-19T01:19:18.789Z",
+      "trainingOptions": {
+        "adjustStepChanges": true,
+        "autoArima": true,
+        "autoArimaMaxOrder": "2",
+        "cleanSpikesAndDips": true,
+        "dataFrequency": "DAILY",
+        "decomposeTimeSeries": true,
+        "holidayRegion": "US",
+        "horizon": "1000",
+        "maxTimeSeriesLength": "3",
+        "minTimeSeriesLength": "20",
+        "timeSeriesDataColumn": "sales_quantity",
+        "timeSeriesIdColumn": "product_category",
+        "timeSeriesLengthFraction": 1,
+        "timeSeriesTimestampColumn": "date",
+        "trendSmoothingWindowSize": "-1"
+      },
+      "trainingStartTime": "1771463958789"
+    }
+  ]
+}

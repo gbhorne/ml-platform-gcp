@@ -1,0 +1,86 @@
+{
+  "creationTime": "1771465120356",
+  "etag": "0UkjAY7rJmS3h/mUcxWo6w==",
+  "id": "playground-s-11-8124ae0d:retail_ml.model_registry",
+  "kind": "bigquery#table",
+  "lastModifiedTime": "1771465146069",
+  "location": "US",
+  "numActiveLogicalBytes": "765",
+  "numActivePhysicalBytes": "4927",
+  "numBytes": "765",
+  "numCurrentPhysicalBytes": "4927",
+  "numLongTermBytes": "0",
+  "numLongTermLogicalBytes": "0",
+  "numLongTermPhysicalBytes": "0",
+  "numRows": "3",
+  "numTimeTravelPhysicalBytes": "0",
+  "numTotalLogicalBytes": "765",
+  "numTotalPhysicalBytes": "4927",
+  "schema": {
+    "fields": [
+      {
+        "name": "model_id",
+        "type": "STRING"
+      },
+      {
+        "name": "model_name",
+        "type": "STRING"
+      },
+      {
+        "name": "model_type",
+        "type": "STRING"
+      },
+      {
+        "name": "product_category",
+        "type": "STRING"
+      },
+      {
+        "name": "training_date",
+        "type": "TIMESTAMP"
+      },
+      {
+        "name": "training_start_date",
+        "type": "DATE"
+      },
+      {
+        "name": "training_end_date",
+        "type": "DATE"
+      },
+      {
+        "name": "model_parameters",
+        "type": "JSON"
+      },
+      {
+        "name": "evaluation_metrics",
+        "type": "JSON"
+      },
+      {
+        "name": "model_location",
+        "type": "STRING"
+      },
+      {
+        "name": "version",
+        "type": "STRING"
+      },
+      {
+        "name": "status",
+        "type": "STRING"
+      },
+      {
+        "name": "created_by",
+        "type": "STRING"
+      },
+      {
+        "name": "notes",
+        "type": "STRING"
+      }
+    ]
+  },
+  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/playground-s-11-8124ae0d/datasets/retail_ml/tables/model_registry",
+  "tableReference": {
+    "datasetId": "retail_ml",
+    "projectId": "playground-s-11-8124ae0d",
+    "tableId": "model_registry"
+  },
+  "type": "TABLE"
+}

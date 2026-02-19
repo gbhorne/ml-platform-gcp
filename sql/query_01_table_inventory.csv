@@ -1,0 +1,22 @@
+table_name,table_type,created_at,row_count
+all_predictions,1,2026-02-19 01:33:05,270
+apparel_forecast_model,4,2026-02-19 01:18:45,1802
+data_lineage,1,2026-02-19 01:41:08,6
+data_quality_monitor,2,2026-02-19 01:44:58,0
+electronics_forecast_model,4,2026-02-19 01:17:34,1802
+features_monthly,1,2026-02-19 01:12:53,108
+features_timeseries,1,2026-02-19 01:10:34,3285
+home_garden_forecast_model,4,2026-02-19 01:19:27,1802
+model_performance_monitor,2,2026-02-19 01:43:15,0
+model_registry,1,2026-02-19 01:38:40,3
+prediction_alerts,1,2026-02-19 01:46:29,1
+predictions_apparel,1,2026-02-19 01:32:17,90
+predictions_electronics,1,2026-02-19 01:31:59,90
+predictions_home_garden,1,2026-02-19 01:32:32,90
+raw_apparel_sales,1,2026-02-19 00:31:22,1095
+raw_electronics_sales,1,2026-02-19 00:29:29,1095
+raw_home_garden_sales,1,2026-02-19 00:32:30,1095
+sales_forecast_view,2,2026-02-19 01:37:45,0
+test_data,1,2026-02-19 01:14:50,915
+training_data,1,2026-02-19 01:14:27,2370
+unified_sales,1,2026-02-19 01:01:13,3285

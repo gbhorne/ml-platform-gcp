@@ -1,0 +1,70 @@
+{
+  "creationTime": "1771465268116",
+  "etag": "CJnrKRc5HP8C1WuveLaXRw==",
+  "id": "playground-s-11-8124ae0d:retail_ml.data_lineage",
+  "kind": "bigquery#table",
+  "lastModifiedTime": "1771465297493",
+  "location": "US",
+  "numActiveLogicalBytes": "941",
+  "numActivePhysicalBytes": "3606",
+  "numBytes": "941",
+  "numCurrentPhysicalBytes": "3606",
+  "numLongTermBytes": "0",
+  "numLongTermLogicalBytes": "0",
+  "numLongTermPhysicalBytes": "0",
+  "numRows": "6",
+  "numTimeTravelPhysicalBytes": "0",
+  "numTotalLogicalBytes": "941",
+  "numTotalPhysicalBytes": "3606",
+  "schema": {
+    "fields": [
+      {
+        "name": "lineage_id",
+        "type": "STRING"
+      },
+      {
+        "name": "source_table",
+        "type": "STRING"
+      },
+      {
+        "name": "target_table",
+        "type": "STRING"
+      },
+      {
+        "name": "transformation_type",
+        "type": "STRING"
+      },
+      {
+        "name": "transformation_query",
+        "type": "STRING"
+      },
+      {
+        "name": "execution_timestamp",
+        "type": "TIMESTAMP"
+      },
+      {
+        "name": "row_count_input",
+        "type": "INTEGER"
+      },
+      {
+        "name": "row_count_output",
+        "type": "INTEGER"
+      },
+      {
+        "name": "execution_time_seconds",
+        "type": "FLOAT"
+      },
+      {
+        "name": "status",
+        "type": "STRING"
+      }
+    ]
+  },
+  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/playground-s-11-8124ae0d/datasets/retail_ml/tables/data_lineage",
+  "tableReference": {
+    "datasetId": "retail_ml",
+    "projectId": "playground-s-11-8124ae0d",
+    "tableId": "data_lineage"
+  },
+  "type": "TABLE"
+}

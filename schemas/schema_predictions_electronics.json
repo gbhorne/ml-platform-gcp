@@ -1,0 +1,58 @@
+{
+  "creationTime": "1771464719096",
+  "etag": "zmiUbLyxB9LGnOh6jbcd7w==",
+  "id": "playground-s-11-8124ae0d:retail_ml.predictions_electronics",
+  "kind": "bigquery#table",
+  "lastModifiedTime": "1771464719096",
+  "location": "US",
+  "numActiveLogicalBytes": "5490",
+  "numActivePhysicalBytes": "6096",
+  "numBytes": "5490",
+  "numCurrentPhysicalBytes": "6096",
+  "numLongTermBytes": "0",
+  "numLongTermLogicalBytes": "0",
+  "numLongTermPhysicalBytes": "0",
+  "numRows": "90",
+  "numTimeTravelPhysicalBytes": "0",
+  "numTotalLogicalBytes": "5490",
+  "numTotalPhysicalBytes": "6096",
+  "schema": {
+    "fields": [
+      {
+        "name": "forecast_date",
+        "type": "TIMESTAMP"
+      },
+      {
+        "name": "predicted_sales",
+        "type": "FLOAT"
+      },
+      {
+        "name": "standard_error",
+        "type": "FLOAT"
+      },
+      {
+        "name": "confidence_level",
+        "type": "FLOAT"
+      },
+      {
+        "name": "lower_bound",
+        "type": "FLOAT"
+      },
+      {
+        "name": "upper_bound",
+        "type": "FLOAT"
+      },
+      {
+        "name": "product_category",
+        "type": "STRING"
+      }
+    ]
+  },
+  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/playground-s-11-8124ae0d/datasets/retail_ml/tables/predictions_electronics",
+  "tableReference": {
+    "datasetId": "retail_ml",
+    "projectId": "playground-s-11-8124ae0d",
+    "tableId": "predictions_electronics"
+  },
+  "type": "TABLE"
+}

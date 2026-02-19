@@ -1,0 +1,58 @@
+{
+  "creationTime": "1771464785214",
+  "etag": "8I6cryjqr/cuB6PpjRE61g==",
+  "id": "playground-s-11-8124ae0d:retail_ml.all_predictions",
+  "kind": "bigquery#table",
+  "lastModifiedTime": "1771464785214",
+  "location": "US",
+  "numActiveLogicalBytes": "16110",
+  "numActivePhysicalBytes": "10730",
+  "numBytes": "16110",
+  "numCurrentPhysicalBytes": "10730",
+  "numLongTermBytes": "0",
+  "numLongTermLogicalBytes": "0",
+  "numLongTermPhysicalBytes": "0",
+  "numRows": "270",
+  "numTimeTravelPhysicalBytes": "0",
+  "numTotalLogicalBytes": "16110",
+  "numTotalPhysicalBytes": "10730",
+  "schema": {
+    "fields": [
+      {
+        "name": "forecast_date",
+        "type": "TIMESTAMP"
+      },
+      {
+        "name": "predicted_sales",
+        "type": "FLOAT"
+      },
+      {
+        "name": "standard_error",
+        "type": "FLOAT"
+      },
+      {
+        "name": "confidence_level",
+        "type": "FLOAT"
+      },
+      {
+        "name": "lower_bound",
+        "type": "FLOAT"
+      },
+      {
+        "name": "upper_bound",
+        "type": "FLOAT"
+      },
+      {
+        "name": "product_category",
+        "type": "STRING"
+      }
+    ]
+  },
+  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/playground-s-11-8124ae0d/datasets/retail_ml/tables/all_predictions",
+  "tableReference": {
+    "datasetId": "retail_ml",
+    "projectId": "playground-s-11-8124ae0d",
+    "tableId": "all_predictions"
+  },
+  "type": "TABLE"
+}
