@@ -2,7 +2,7 @@
 
 Production-ready machine learning platform for retail sales forecasting using BigQuery ML. Trains three ARIMA Plus time series models across three product categories, generates 90-day forecasts with 95% confidence intervals, and operates at $1.58/month.
 
-**Implementation note:** This project was built in a GCP sandbox environment for portfolio and demonstration purposes. Operational costs reflect the actual lab deployment at small scale. Business impact figures (savings, ROI) are modeled enterprise-scale estimates; real-world results depend on data volume, SKU count, and operational integration.
+**Implementation note:** Operational costs reflect the actual deployment at small scale. Business impact figures (savings, ROI) are modeled enterprise-scale estimates; real-world results depend on data volume, SKU count, and operational integration.
 
 ---
 
